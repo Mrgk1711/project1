@@ -1,0 +1,162 @@
+#social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 3%;
+  }
+
+  #text-foot{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  #h4{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    padding-bottom: 8px;
+  }
+  #copy-right{
+    font-size: 14px;
+  }
+
+ #foot-content{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+ }
+
+ #foot-content a{
+  font-size: 12px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+ }
+ #copy-rt{
+  text-align: center;
+  font-size: 12px;
+ }
+@media only screen and (max-width:592px) {
+  #social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    
+  }
+}
+
+/* cafe menu styles */
+
+#cafe-item{
+  /* background-color: #fff; */
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: black;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+#cafe-item a.active {
+  color:white;
+  background-color: #DC4348;
+  width: 100%;
+  border-radius: 220px;
+}
+
+
+#cafe-item-li{
+  color:black;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  margin: 0px 10px 10px 0px;
+}
+
+#cafe-item-li:hover{ 
+  background-color: #DC4348;
+  color: #fff;
+  width: 100%;
+  border-radius: 220px;
+}
+
+#menu-img{
+  background-image: url(../assets/images/menuimg.jpg) !important;
+  width:auto;
+   height: 400px;
+   background-repeat: no-repeat; 
+   text-align: center;   
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* for mobile cafe menu styles */
+
+@media only screen and (max-width:592px) {
+
+#cafe-item{
+  /* background-color: #fff; */
+  display: flex;
+  justify-content: center;
+  color: black;
+  text-decoration: none;
+  
+}
+#cafe-item a.active {
+  color:white;
+  background-color: #DC4348;
+  width: 100%;
+  border-radius: 220px;
+}
+#cafe-item-li{
+  color:black;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+}
+#menu-img{
+  background-image: url(../assets/images/menuimg.jpg) !important;
+  width:auto;
+   height: 400px;
+   background-repeat: no-repeat; 
+   text-align: center;   
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  
+}
+
+/* for mobile cafe menu styles */
+
+
+#h4-head{
+  text-align: center;
+  color: #DC4348;
+}
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+#img-hot-menu{
+  height: 60px;
+  width: 65px;
+  margin: 5px;
+}
+.card{
+  background-color: rgba(220, 69, 77, 0.5);
+}
+
+.carousel-control-prev-icon {
+  background-image: none;
+}
+
+.carousel-control-next-icon {
+  background-image: none;
+}
+
+.carousel-indicators .active {
+  opacity: 0;
+}
